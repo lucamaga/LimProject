@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width:62%;
+  margin: auto;
+  margin-top: 25px;
+  height: 630px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  font-family: arial;
+}
+
+/* Logo */
+header{
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+header img{
+  width:220px;
+}
+
+header div{
+  color: lime;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Barra di navigazione */
+nav{
+  background-color: lime;
+  width:785px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Menu disponibilita' */
+.disp{
+  margin-left: 79px;
+  margin-top: 20px;
+}
+
+main div, main span{
+  color: white;
+}
+
+/* Percentuale carica */
+.carica1, .carica2, .carica3{
+  height:20px;
+  border-radius: 3px;
+}
+
+.carica1{
+  width:300px;
+  background-color: yellow;
+}
+
+.carica2{
+  width:590px;
+  background-color: lime;
+}
+
+.carica3{
+  width:150px;
+  background-color: red;
+  }
+
+.perc {
+  visibility: hidden;
+  color: pink;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  margin-left: 102%;
+  padding-top: 3px;
+}
+
+.carica3:hover .perc, .carica2:hover .perc, .carica1:hover .perc {
+  visibility: visible;
+}
+
+/* nome e posizione */
+.nome{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.posizione, .stato{
+  font-size: 13px;
+  padding: 3px;
+  font-weight: 400;
+}
+
+/* link posizione */
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: cyan;
+}
